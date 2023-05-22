@@ -31,4 +31,4 @@ yarn dev
 
 ## Clarification
 
-Esta página es un clon de la página de [Pomofocus]([label](https://pomofocus.io/)) con el propósito de prácticar los conocimientos aprendidos durante el curso de Tecnologías Web, por ello no posee muchas de las funcionalidades.
+Esta página es un clon de la página de [Pomofocus](https://pomofocus.io/) con el propósito de prácticar los conocimientos aprendidos durante el curso de Tecnologías Web, por ello no posee muchas de las funcionalidades.
