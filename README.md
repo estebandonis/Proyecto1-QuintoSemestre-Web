@@ -11,9 +11,11 @@ Este proyecto puede ser útil para saber una manera de como recree esta página 
 ## Technologies
 
 Para este proyecto hice uso de:
-- React
-- Typescript
-- Vite
+- [React](https://es.react.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Eslint](https://eslint.org/)
+- [Prop-types](https://legacy.reactjs.org/docs/typechecking-with-proptypes.htmlx)
 
 ## Installation
 
