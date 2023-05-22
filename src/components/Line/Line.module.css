@@ -1,0 +1,7 @@
+.styles {
+  height: 3px;
+  background-color: white;
+  border-radius: 100px;
+  transform: translateY(-1px);
+  width: 0%;
+}

@@ -1,0 +1,43 @@
+.styles div {
+  font-weight: bold;
+}
+
+.styles button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.9;
+  background: none rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  margin-left: 10px;
+  font-size: 13px;
+  padding: 8px 12px;
+  min-width: 70px;
+  border: none;
+  color: white !important;
+  width: auto;
+}
+
+.styles button img {
+  width: 18px;
+  margin-right: 5px;
+}
+
+.styles button:hover {
+  background: none rgba(255, 255, 255, 0.3);
+}
+
+.styles button:active {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.styles button:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
