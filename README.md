@@ -6,6 +6,8 @@ Pomofocus Web Page Clone
 
 Esta página tiene el diseño de la página web Pomofocus, la cual está hecha para facilitar el uso del método pomodoro.
 
+Este proyecto puede ser útil para saber una manera de como recree esta página y servir como inspiración.
+
 ## Technologies
 
 Para este proyecto hice uso de:
