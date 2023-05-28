@@ -1,5 +1,5 @@
 import './App.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import {
   Menu,
@@ -21,23 +21,30 @@ function App() {
   const [num, setNum] = useState('40:00')
   const [stil, setStil] = useState({ backgroundColor: '#B74949' })
   const [anchorEl, setAnchorEl] = useState(null)
+  const [color, setColor] = useState({ color: '#B74949' })
 
   const handleClickPomodoro = () => {
+    document.title = '40:00 - Time to focus!'
     setStil({ backgroundColor: '#B74949' })
     setTitle('Time to focus!')
     setNum('40:00')
+    setColor({ color: '#B74949' })
   }
 
   const handleClickShort = () => {
+    document.title = '8:00 - Time for a break!'
     setStil({ backgroundColor: '#38858A' })
     setTitle('Time for a break!')
     setNum('08:00')
+    setColor({ color: '#38858A' })
   }
 
   const handleClickLong = () => {
+    document.title = '15:00 - Time to focus!'
     setStil({ backgroundColor: '#397097' })
     setTitle('Time for a break!')
     setNum('15:00')
+    setColor({ color: '#397097' })
   }
 
   const handleMenuClick = (event) => {
@@ -47,6 +54,10 @@ function App() {
   const handleMenuClose = () => {
     setAnchorEl(null)
   }
+
+  useEffect(() => {
+    document.title = '40:00 - Time to focus!'
+  }, [])
 
   return (
     <div className="App">
@@ -76,7 +87,7 @@ function App() {
                 <ButtonInBox onclick={handleClickLong} nombreBoton="Long Break" />
               </div>
               <div className="contador">{num}</div>
-              <ButtonWhite nombreBoton="START" />
+              <ButtonWhite estilo={color} nombreBoton="START" />
             </div>
 
             <p>#0</p>

@@ -1,32 +1,54 @@
 {
   "name": "proyecto1",
   "private": true,
-  "version": "0.0.0",
+  "version": "1",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006 --ci",
+    "build-storybook": "storybook build",
+    "test": "vitest"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.13.0",
     "@mui/styled-engine": "^5.12.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
     "eslint": "^7.32.0 || ^8.2.0",
-    "prop-types": "^15.8.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vitest": "^0.31.1"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.18",
+    "@storybook/addon-interactions": "^7.0.18",
+    "@storybook/addon-links": "^7.0.18",
+    "@storybook/blocks": "^7.0.18",
+    "@storybook/react": "^7.0.18",
+    "@storybook/react-vite": "^7.0.18",
+    "@storybook/testing-library": "^0.0.14-next.2",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^27.2.1",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-storybook": "^0.6.12",
+    "jsdom": "^22.1.0",
+    "storybook": "^7.0.18",
+    "prop-types": "^15.8.1",
     "vite": "^4.2.0"
-  }
+  },
+  "description": "proyecto1",
+  "main": "index.js",
+  "repository": "https://github.com/estebandonis/Proyecto1-QuintoSemestre-Web.git",
+  "author": "Esteban Donis <estebandonis10@gmail.com>",
+  "license": "MIT"
 }

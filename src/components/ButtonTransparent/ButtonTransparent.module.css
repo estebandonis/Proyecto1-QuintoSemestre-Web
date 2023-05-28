@@ -1,5 +1,6 @@
 .styles div {
   font-weight: bold;
+  max-width: 80px;
 }
 
 .styles button {
@@ -13,6 +14,7 @@
   background: none rgba(255, 255, 255, 0.2);
   box-shadow: none;
   margin-left: 10px;
+  padding-right: 5px;
   font-size: 13px;
   padding: 8px 12px;
   min-width: 70px;
@@ -24,6 +26,14 @@
 .styles button img {
   width: 18px;
   margin-right: 5px;
+}
+
+.styles button div {
+  max-width: auto;
+  margin-right: 5px;
+  text-overflow: -;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .styles button:hover {
