@@ -11,11 +11,11 @@ Este proyecto puede ser útil para saber una manera de como recree esta página 
 ## Technologies
 
 Para este proyecto hice uso de:
-- [React](https://es.react.dev/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Vite](https://vitejs.dev/)
-- [Eslint](https://eslint.org/)
-- [Prop-types](https://legacy.reactjs.org/docs/typechecking-with-proptypes.htmlx)
+- [React](https://es.react.dev/): Framework to Javascript que nos permite crear interfaces de usuario a partir de componentes.
+- [Typescript](https://www.typescriptlang.org/): Lenguaje de programación que posee la misma sintaxis que Javascript, este construye sobre Javascript para crear tipos estáticos y clases.
+- [Vite](https://vitejs.dev/): Herramienta de compilación de código, que facilita el manejo de paquetes y el desarrollo como tal.
+- [Eslint](https://eslint.org/): Herramienta de análisis de código que nos ayuda a imponer un estilo y estandarizar todo el código que desarrollamos para que se vea más legible.
+- [Prop-types](https://legacy.reactjs.org/docs/typechecking-with-proptypes.htmlx): Validador de inputs que se recibe en componentes.
 
 ## Installation
 
